@@ -1,0 +1,31 @@
+table{
+    border: 3px solid black;
+    width: 80%;
+    border-collapse: collapse;
+}
+caption{
+    background-color: aquamarine;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+td{
+    border: 3px solid black;
+    text-align: center;
+}
+thead{
+    background-color: darkmagenta;
+    font-size: 1.3rem;
+}
+tbody{
+    background-color: beige;
+}
+tr:nth-child(even){
+    background-color: bisque;
+}
+td:hover{
+    background-color: aquamarine;
+}
+#description{
+    color: darkmagenta;
+}
